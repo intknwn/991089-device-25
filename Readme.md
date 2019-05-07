@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
-* Студент: [Дмитрий Неклюдов](https://up.htmlacademy.ru/htmlcss/25/user/991089).
-* Наставник: `Неизвестно`.
+- Студент: [Дмитрий Неклюдов](https://up.htmlacademy.ru/htmlcss/25/user/991089).
+- Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/id208340).
 
 ---
 
