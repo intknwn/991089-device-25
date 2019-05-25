@@ -120,10 +120,13 @@ a {
   line-height: 40px;
 }
 
-.button-link {
+.button-link,
+.button-submit {
   display: inline-block;
+
   height: 8px;
   width: 260px;
+
   border: none;
   
   font-family: 'Gilroy', Arial, sans-serif;
@@ -139,12 +142,16 @@ a {
 }
 
 .button-link:hover,
-.button-link:focus {
+.button-link:focus,
+.button-submit:hover,
+.button-submit:hover {
   height: 40px;
+
   line-height: 40px;
 }
 
-.button-link:active {
+.button-link:active,
+.button-submit:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -207,12 +214,12 @@ a {
   color: #ffffff;
 }
 
-.main-footer-logo:hover,
-.main-footer-logo:focus {
+.footer-copyright-logo:hover,
+.footer-copyright-logo:focus {
   opacity: 0.6;
 }
 
-.main-footer-logo:active {
+.footer-copyright-logo:active {
   opacity: 0.3;
 }
 
@@ -226,11 +233,14 @@ a {
 .modal-close {
   width: 55px;
   height: 55px;
+
   border: none;
+
   background-color: #ffffff;
   background-image: url("../img/modal-close.png");
   background-position: 0 0;
   background-repeat: repeat;
+
   opacity: 0.5;
 }
 
@@ -279,5 +289,107 @@ a {
   font-weight: 800;
 }
 
+/* стили внутренней страницы */
 
+.logout-link a {
+  color: rgba(0, 0, 0, 0.3);
+}
 
+.page-title {
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a,
+.breadcrumbs-current {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.breadcrumbs a:active {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.filters {
+  background-color: #ebebeb;
+}
+
+.index-columns-inner h2 {
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.filter ul {
+  list-style: none;
+
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+}
+
+.filter-input:disabled + label {
+  color: #a6a6a6;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  background-color: #ffffff;
+}
+
+.catalog-item a {
+  color: #000000;
+}
+
+.catalog-item h3 {
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.catalog-item-price {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.footer-logout-link a {
+  color: rgba(255, 255, 255, 0.3);
+}
